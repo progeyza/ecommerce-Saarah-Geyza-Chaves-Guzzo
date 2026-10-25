@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src=""js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <button id="btn-menu">Menu</button>
+        <nav id="menu" class="menu">
+            <a href="#vitrine">Produtos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <h2>BOOK LIFE</h2>
+            <p id="aviso-frete"></p>
+        </section>
+
+        <section id="vitrine" class="container">
+            <div class="produtos">
+                <div class="cartao">
+                    <img src="img/produto-1.jpg" alt="três livros do mundo de senhor dos anéis">
+                    <p>J.R.R.Tolkien</p>
+                    <p>R$ 54,90</p>
+                </div>
+                <div class="cartao">
+                    <img src="img/produto-2.jpg" alt="três livros classicos">
+                    <p>Machado De Assis</p>
+                    <p>R$ 110,00</p>
+                </div>
+                <div class="cartao">
+                    <img src="img/produto-3.jpeg" alt="oito livros de fantasia">
+                    <p>Sarah J. Maas</p>
+                    <p>R$ 129,90</p>
+                </div>
+                <div class="cartao">
+                    <img src="img/produto-4.jpeg" alt="três livros de fantasia">
+                    <p>Stephanie Garber</p>
+                    <p>R$ 219,30</p>
+                </div>
+                <div class="cartao">
+                    <img src="img/produto-5.jpeg" alt="três livros da saga o empyriano">
+                    <p>Rebecca Yarros</p>
+                    <p>R$ 39,20</p>
+                </div>
+                <div class="cartao">
+                    <img src="img/produto-6.jpeg" alt="três livros do mundo da princesa desastrada">
+                    <p>Maidy Lacerda</p>
+                    <p>R$ 78,60</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <section id="contato" class="container">
+        <form id="contato-form">
+            <input id="email" type="text" placeholder=" e-mail">
+            <input id ="nome" type="text" placeholder="nome completo">
+            <input id = "cidade" type="text" placeholder="cidade">
+            <button id= "confirmar" type="submit">Enviar</button>
+            <p id="erro"></p>
+        </form>
+    </section>
+
+    <footer>
+        <p>contato@booklife.com</p>
+    </footer>
+
+    <script src="js/app.js" defer></script>
+</body>
+</html>
+
